@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.link {
+    height: 20vh;
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-between;
+    border: 2px solid sandybrown;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+
+
+
+}
+
+.news img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.news author{
+    color: blue;
+}
